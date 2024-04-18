@@ -4,13 +4,13 @@ public class Animals {
     private String nombre;
     private Species especie;
     private int edad;
-    private Environment environment;
+    private String habitat;
 
-    public Animals(String nombre, Species especie, int edad, Environment environment) {
+    public Animals(String nombre, Species especie, int edad, String habitat) {
         this.nombre = nombre;
         this.especie = especie;
         this.edad = edad;
-        this.environment = environment;
+        this.habitat = habitat;
     }
 
     public String getNombre() {
@@ -37,11 +37,11 @@ public class Animals {
         this.edad = edad;
     }
 
-    public Environment getEnvironment() {
-        return environment;
+    public String getHabitat() {
+        return habitat;
     }
 
-    public void setEnvironment(Habitats habitats) {
-        this.environment = environment;
+    public void setHabitat(String habitat) {
+        this.habitat = habitat;
     }
 }

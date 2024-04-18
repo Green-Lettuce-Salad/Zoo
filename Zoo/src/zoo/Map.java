@@ -81,7 +81,7 @@ public class Map extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 50, 40));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 50, 50));
 
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/palma.png"))); // NOI18N
         jButton3.setAutoscrolls(true);
@@ -94,7 +94,7 @@ public class Map extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 120, 50, 40));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 120, 50, 50));
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/palma.png"))); // NOI18N
         jButton4.setAutoscrolls(true);
@@ -107,7 +107,7 @@ public class Map extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 50, 40));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 60, 50));
 
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/palma.png"))); // NOI18N
         jButton5.setAutoscrolls(true);
@@ -120,7 +120,7 @@ public class Map extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 140, 50, 40));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 130, 50, 50));
 
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/montanas-nevadas.png"))); // NOI18N
         jButton6.setAutoscrolls(true);
@@ -146,7 +146,7 @@ public class Map extends javax.swing.JFrame {
                 jButton7ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 220, 50, 40));
+        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 220, 50, 50));
 
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/montanas-nevadas.png"))); // NOI18N
         jButton8.setAutoscrolls(true);
@@ -185,7 +185,7 @@ public class Map extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 370, 50, 40));
+        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 370, 50, 50));
 
         jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/arbol.png"))); // NOI18N
         jButton11.setAutoscrolls(true);
@@ -198,7 +198,7 @@ public class Map extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 360, 50, 40));
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 360, 50, 50));
 
         jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/arbol.png"))); // NOI18N
         jButton12.setAutoscrolls(true);
@@ -211,7 +211,7 @@ public class Map extends javax.swing.JFrame {
                 jButton12ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 320, 50, 40));
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 320, 50, 50));
 
         jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/arbol.png"))); // NOI18N
         jButton13.setAutoscrolls(true);
@@ -224,7 +224,7 @@ public class Map extends javax.swing.JFrame {
                 jButton13ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 400, 50, 40));
+        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 400, 50, 50));
 
         jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ola.png"))); // NOI18N
         jButton14.setAutoscrolls(true);
@@ -250,7 +250,7 @@ public class Map extends javax.swing.JFrame {
                 jButton15ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 330, 50, 40));
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 330, 50, 50));
 
         jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ola.png"))); // NOI18N
         jButton16.setAutoscrolls(true);
@@ -370,17 +370,8 @@ public class Map extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     
-//    public void cont(){
-//        System.out.println("zoo.Map.cont()");
-//        
-//        if (cont == 1) {
-//            System.exit(WIDTH);
-//        }
-//    }
-    
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-//        JOptionPane.showMessageDialog(null, "Test");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -444,12 +435,12 @@ public class Map extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton0ActionPerformed
-        // TODO add your handling code here:
-//        cont = 1;
-//        cont();
+        Main main = new Main();
+        main.setVisible(true);
+        main.setLocationRelativeTo(null);
+        this.setVisible(false);
     }//GEN-LAST:event_jButton0ActionPerformed
     
-//    int cont = 0;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton0;
     private javax.swing.JButton jButton1;
